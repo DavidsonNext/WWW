@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Davidson Next Interactives</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="styles/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles/3-col-portfolio.css" rel="stylesheet">
+
+    <style type="text/css">
+        #GraphCalc .modal-dialog  {width:800px;}
+        #FDB .modal-dialog  {width:700px;}
+    </style> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Davidson Next Interactives on edX</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="drawing.html">Drawing</a></li>
+                    <li><a href="graphing.html">Graphing</a></li>
+                    <li><a href="data_entry.html">Data Entry</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="jsxgraph_example.html" target="_blank">iPython/JSinput edX Workflow</a></li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <!-- <div class="container"> -->
+
+        
+
+    <div class="container">
+        <div class="jumbotron" >
+            <div class="container">
+                <h2>Enhanced Learning Components</h2>
+                <p>Creating interactive student activities that store student work directly in edX.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Sidebar (affix) -->
+        <!-- <div class="col-md-2" id="leftCol">
+          <ul class="nav nav-list affix" id="sidebar">
+            <li><a href="#sec1">Data Entry and Plotting</a></li>
+            <li><a href="#sec2">Active Table</a></li>
+            <li><a href="#sec3">Technology</a></li>
+          </ul>
+        </div> -->
+
+        <!-- /.row -->
+
+        <div class="col-md-12">
+          <h1 class="page-header">Data Entry Tools<br/><small>(Data Entry and Plotting , Active Table)</small></h1>
+          <p>Data entry and analysis was largely pushed by Davidson Next physics content, where AP teachers wanted to students to be exposed to data and plotting - note, there are new AP exam questions aimed at this skill.</p>
+          <p>In addition, we found across all three Davidson Next subjects that teachers wanted "worksheet" style problems that allows students to carry out a series of calculations that would all be graded at once. This functionality is what led to the Active Table problem type.</p>          
+
+          <hr id="sec1">
+          </br>
+          </br>
+          <h3 id="sec1">Data Entry and Plotting</h3>
+          <p>Laboratory activities have been a missing link between online content and AP courses. Our Data Entry and Plotting tool aims to connect online and blended learning courses to a set of tools that allow students to directly store and measure data points within the edX platform. </p>
+          
+          <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <a href="https://dnextinteractives.s3.amazonaws.com/data_entry/single_experiment.html">
+                  <img class="img-responsive" src="images/dataEntryPlottingRM.png" alt="">
+              </a>
+            </div>
+            
+            <!-- edX Live Button -->
+            <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Phy_APccx+2T2015/courseware/Acceleration/LC1_Position_versus_Time_Graphs_for_Uniform_Acceleration/5" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+            
+            <!-- Demo Button -->
+            <a href="https://dnextinteractives.s3.amazonaws.com/data_entry/single_experiment.html" class="btn btn-success btn-md" target="_blank">
+              Demo
+            </a>
+
+            <!-- Github Button -->
+            <button type="button" class="btn btn-default btn-md">
+                <span class="fa fa-github" aria-hidden="true"></span>
+                <a href="https://github.com/DavidsonNext/Interactives/tree/master/data_entry" target="_blank"> Git </a>
+            </button>
+
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Instructions.</h3></div>
+                <div class="panel-body">
+                  <p>The general workflow for the Data-Entry and Plotting Tool on the edX Platform:</p>
+                    <ol>
+                      <li>In all activities, data will&nbsp;either be prepopulated or there will be empty cells that require calculations. If the latter, simply enter the appropriate data in the cell and hit the "save" button below the app to store it to the system. <strong><em>At this time, the application only accepts decimal notation (i.e., no scientific notation).</em></strong></li>
+                      <li>With a complete data table, just choose which columns to plot using the "choose columns" button and drop down menus.</li>
+                      <li>After selecting the appropriate columns, use the "plot table" button to visualize the data.</li>
+                      <li>A linear-fit line can be applied to the data by clicking the "fit line" button.</li>
+                      <ul>
+                      <li>The linear fit will render "<strong>y=m*x+b</strong>", where "m" is the slope of the best-fit line, and "b" is the intercept. "y" and "x" represent your selected columns.</li>
+                      </ul>
+                      <li>At anytime, you can use the "reset" button to restore all cells to their initial values. This might be necessary if any of the initial values in the table are accidentally overwritten. <strong><em>Important, the reset button will cause you to lose any work you have entered in the data table.</em></strong></li>
+                    </ol>
+                </div>
+              </div>
+            </div>  
+          </div>
+
+
+          <hr id="sec2">
+          </br>
+          </br>
+          <!-- Active Table  -->
+          <h3>Active Table</h3>
+          <p>edX has miriad of high quality assessment types, but does not yet offer the ability to respond in a table format. Active Table are designed to give instructors control in asking learners to calculate a number of related responses. Right now, this resemble a "worksheet" style problem, where a high school teacher might have a table of values for students to fill out. As we move forward, we hope to expand this tool to allow more "spreadsheet" like activities (for example, one could create a sudoku activity with this problem type). Column and row grading is possible now with custom python grading, but has not been generalized.</p>
+          <div class="panel panel-default">
+              <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Money_Creation/LC2_Excess_Reserves/3">
+                  <img class="img-responsive" src="images/actTable_oldTable.png" alt="">
+              </a>
+          </div>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Money_Creation/LC2_Excess_Reserves/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Money_Creation/LC2_Excess_Reserves/3" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-sm">
+                <span class="fa fa-github" aria-hidden="true"></span>
+                <a href="https://github.com/open-craft/activetable-jsinput"> Git </a>
+          </button>
+
+
+          <hr id="sec3">
+          </br>
+          </br>
+          <!-- Active Table  -->
+          <h3>Technology</h3>
+          <p>The data entry and plotting tool was largely built around JSXgraph. In addition, modern HTML/Javascript/CSS and JQuery provide some of the refined features of the tool. The Active Table problem type involved more basic HTML components.</p>
+
+          <h3>
+              <a href="http://jsxgraph.uni-bayreuth.de/wp/">JSXgraph</a>
+
+          </h3>
+          From their website: 
+          <i>
+              JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser. It is implemented completely in JavaScript, does not rely on any other library, and uses SVG, VML, or canvas. JSXGraph is easy to embed and has a small footprint: less than 100 KByte if embedded in a web page. No plug-ins are required! Special care has been taken to optimize the performance.
+          </i>
+          
+
+        </div>
+
+    
+        
+
+
+
+    <!-- </div> -->
+    <!-- /.container -->    
+    
+    <!-- Footer -->
+    <div class="container">
+        <footer>
+            <div class="row">
+                <!-- <div class="col-lg-12">
+                    <p>Copyright &copy; Davidson Next 2014</p>
+                </div> -->
+            
+                <div class="col-lg-12">
+                    <h1 class="page-header">About Davidson Next
+                        <!-- <small>custom</small> -->
+                    </h1>
+                    <p>Davidson Next is a collection of free online resources for Advanced Placement (AP) courses. Davidson Next is a collaborative project between Davidson College, the College Board, and edX. Davidson Next was made possible by the generous support of the Laura and John Arnold Foundation.</p>                    
+                    <h4>
+                        <a href="https://www.edx.org/school/davidsonx" target="_blank">Davidson Next on edX</a>
+                    </h4>
+                    <h4>
+                        <a href="http://www.davidson.edu/davidsonnext" target="_blank">Official Home Page</a>
+                    </h4>
+
+                    <hr/>
+
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Davidson Next Interactives</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.davidson.edu/davidsonnext" property="cc:attributionName" rel="cc:attributionURL">Davidson Next</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+                    <p><i>Advanced Placement&reg; and AP&reg; are trademarks registered and/or owned by the College Board, which was not involved in the production of, and does not endorse, these offerings.</i></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+    </div>
+    
+
+    <!-- jQuery -->
+    <script src="scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+    
+
+</body>
+
+</html>

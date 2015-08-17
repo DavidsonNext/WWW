@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+  <h3> This is the start of my child template</h3>
+  <br>
+<!--   <p>My string: {{my_string}}</p>
+  <p>Value from the list: {{actList[3]}}</p> -->
+  <p>Loop through the list:</p>
+  <ul>
+    {% for n in actList %}
+    <li>{{n}}</li>
+    {% endfor %}
+  </ul>
+  <h3> This is the end of my child template</h3>
+{% endblock %}
+
+{% block jsxgraph %}
+<h2>JSXgraph Interactives</h2>
+<ol align="left">
+    {% set counter = 0 -%}
+    {% for url in JSXlist -%}
+    <li><a href="{{ url }}">{{ url }}</a></li>
+    {% set counter = counter + 1 -%}
+    {% endfor -%}
+</ol>
+{% endblock%}

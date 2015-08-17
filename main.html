@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Davidson Next Interactives</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles/3-col-portfolio.css" rel="stylesheet">
+
+    <style type="text/css">
+        #GraphCalc .modal-dialog  {width:800px;}
+        #FDB .modal-dialog  {width:700px;}
+    </style> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Davidson Next Interactives</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#Tools">Tools</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">Courses</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="jsxgraph_example.html">iPython/JSinput edX Workflow</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Graphing
+                    <small>jsxgraph</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Graphing/curve_select_Macro.html">
+                    <img class="img-responsive" src="projects/Graphing/curve_select_Macro.png" alt="">
+                </a>
+                <h3>
+                    Curve Selection
+                </h3>
+                <!-- Button trigger modal -->
+                
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#CurveSelect">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Graphing/curve_select_Macro.html" download="curve_select_Macro.html"> File </a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="CurveSelect" tabindex="-1" role="dialog" aria-labelledby="myCurveSelect" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myCurveSelect">Curve Selection</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=500 height=400 src="projects/Graphing/curve_select_Macro.html"></iframe>
+                        <h4>Instructions:</h4> <p>Select one of the two gray curves.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <p>Example of selecting curves within figure, i.e., an interactive multiple choice. Inspired by Macroeconomics problems where students may have trouble visualizing relationships between various economic variables.</p>
+    
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Graphing/curve_drag_Macro.html">
+                    <img class="img-responsive" src="projects/Graphing/curve_drag_Macro.png" alt="">
+                </a>
+                <h3>
+                    Curve Drag
+                </h3>
+                
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#CurveDrag">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Graphing/curve_drag_Macro.html" download="curve_drag_Macro.html"> File </a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="CurveDrag" tabindex="-1" role="dialog" aria-labelledby="myCurveDrag" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myCurveDrag">Curve Drag</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=500 height=400 src="projects/Graphing/curve_drag_Macro.html"></iframe>
+                        <h4>Instructions:</h4> <p>Click and drag the blue curve.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p>Dragging the blue curve using the mouse. Current example inspired by Macroeconomics problems asking students to predict whether a given function will increase or decrease relative to economic conditions.</p>
+                
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Graphing/graphing_calculator.html">
+                    <img class="img-responsive" src="projects/Graphing/graphing_calculator.png" alt="">
+                </a>
+                <h3>
+                    Graphing Calculator
+                </h3>
+
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#GraphCalc">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Graphing/graphing_calculator.html" download="graphing_calculator.html">
+                        File 
+                    </a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="GraphCalc" tabindex="-1" role="dialog" aria-labelledby="myGraphCalc" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myGraphCalc">Graphing Calculator</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=900 height=450 src="projects/Graphing/graphing_calculator.html"></iframe>
+                        <h4>Instructions:</h4> <p>Either put in your own function, or simply click plot. To find a zero, you must provide a starting x value.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p>Graphing calculators are permitted for use during "calculator active" problems on AP exams. Here we attempt to provide open access to those functionalities required for the AP exam.</p>
+                
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Drawing
+                    <small>paper.js and jsxgraph</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Drawing/vector_drawing.html">
+                    <img class="img-responsive" src="projects/Drawing/vector_drawing.png" alt="">
+                </a>
+                <h3>
+                    Vector Drawing
+                </h3>
+
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Protractor">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Drawing/vector_drawing.html" download="vector_drawing.html"> File </a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Protractor" tabindex="-1" role="dialog" aria-labelledby="myProtractor" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myProtractor">Vector Drawing</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=600 height=400 src="projects/Drawing/vector_drawing.html"></iframe>
+                        <h4>Instructions:</h4> <p>Click anywhere on the protractor, drag the mouse, and release to create a vector. Note, grading on edX requires the vector to start from the center of the protractor.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p>Drawing and interpreting vectors are fundamental to many physics concepts. Paper.js allows students to draw directly to screen using their mouse. Inspired by problems in force diagrams.</p>
+                
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Drawing/fdb_box_on_incline.html">
+                    <img class="img-responsive" src="projects/Drawing/fdb_box_on_incline.png" alt="">
+                </a>
+                <h3>
+                    Force Diagrams
+                </h3>
+
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#FDB">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Drawing/fdb_box_on_incline.html" download="fdb_box_on_incline.html"> File </a>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="FDB" tabindex="-1" role="dialog" aria-labelledby="myFDB" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myFDB">Force Diagram</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=800 height=400 src="projects/Drawing/fdb_box_on_incline.html"></iframe>
+                        <h4>Instructions:</h4> <p>Use the buttons to the right of the canvas to insert vectors. Then drag them to their appropriate location.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p>Force Diagrams are used throughout physics courses to analyze forces acting on an object. This example allows students to arrange vectors vectors and get graded feedback on their configuration. Any image can be loaded to the background.</p>
+                
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="projects/Drawing/drawing_points.html">
+                    <img class="img-responsive" src="projects/Drawing/drawing_points.png" alt="">
+                </a>
+                <h3>
+                    Drawing Data Points
+                </h3>
+
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#Points">
+                  Demo
+                </button>
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                    <a href="projects/Drawing/drawing_points.html" download="drawing_points.html"> File </a>
+                    
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Points" tabindex="-1" role="dialog" aria-labelledby="myPoints" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myPoints">Drawing Data Points</h4>
+                      </div>
+                      <div class="modal-body">
+                        <iframe frameBorder="0" width=500 height=400 src="projects/Drawing/drawing_points.html"></iframe>
+                        <h4>Instructions:</h4> <p>Click anywhere in the interactive canvas to draw a single data point.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p>We are aiming to test how higher levels of interactivity with data correlates with learning. A first step involves allowing students to control data points. Inspired by problems associated with potential laboratories in Davidson Next.</p>
+                
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Data Entry
+                    <small>custom</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Under Development</a>
+                </h3>
+                <p>Slated for release 2015.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Under Development</a>
+                </h3>
+                <p>Slated for release 2015.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Under Development</a>
+                </h3>
+                <p>Slated for release 2015.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Open-Source Javascript Packages
+                    <!-- <small>custom</small> -->
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>
+                    <a href="http://jsxgraph.uni-bayreuth.de/wp/">JSXgraph</a>
+
+                </h3>
+                From their website: 
+                <i>
+                    JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser. It is implemented completely in JavaScript, does not rely on any other library, and uses SVG, VML, or canvas. JSXGraph is easy to embed and has a small footprint: less than 100 KByte if embedded in a web page. No plug-ins are required! Special care has been taken to optimize the performance.
+                </i>
+                <h3>
+                    <a href="http://jsxgraph.uni-bayreuth.de/wp/">Paper JS</a>
+                </h3>
+                From their website: 
+                <i>
+                    Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas. It offers a clean Scene Graph / Document Object Model and a lot of powerful functionality to create and work with vector graphics and bezier curves, all neatly wrapped up in a well designed, consistent and clean programming interface.
+                </i>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+
+        <section id="About">
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">About Davidson Next
+                        <!-- <small>custom</small> -->
+                    </h1>
+                    <h3>
+                        <a href="http://www.davidson.edu/davidsonnext">Website</a>
+                    </h3>
+                    <h3>
+                        <a href="https://www.edx.org/school/davidsonx">DavidsonX on edX</a>
+                    </h3>
+                </div>
+
+            </div>
+        </section>
+
+        
+        
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <!-- <div class="col-lg-12">
+                    <p>Copyright &copy; Davidson Next 2014</p>
+                </div> -->
+            
+                <div class="col-lg-12">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Davidson Next Interactives</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.davidson.edu/davidsonnext" property="cc:attributionName" rel="cc:attributionURL">Davidson Next</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+    
+
+</body>
+
+</html>

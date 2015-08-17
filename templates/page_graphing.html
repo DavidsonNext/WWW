@@ -1,0 +1,147 @@
+{% extends "base_page.html" %}
+{% block page_content %}
+
+    <div class="container">
+        <div class="jumbotron" >
+            <div class="container">
+                <h2>Enhanced Learning Components</h2>
+                <p>Creating interactive student activities that store student work directly in edX.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Sidebar (affix) -->
+        <!-- <div class="col-md-2" id="leftCol">
+          <ul class="nav nav-list affix" id="sidebar">
+            <li><a href="#sec1">Graphing Calculator</a></li>
+            <li><a href="#sec2">Curve Shifting (drag)</a></li>
+            <li><a href="#sec3">Calculus Visualization</a></li>
+            <li><a href="#sec4">Curve Shifting (sliders)</a></li>
+            <li><a href="#sec4">Technology</a></li>
+          </ul>
+        </div> -->
+
+        <!-- /.row -->
+
+        <div class="col-md-12">
+          <h1 class="page-header">Interactive Graphing<br/><small>(Graphing Calculator, Curve Shifting (drag), Calculus Visualizations, Curve Shifting (sliders)</small></h1>
+          <p>Providing interacctive graphing activities was an important goal for the Davidson Next project. Largely using JSXgraph, we have provided a large number of interactive graphing applications in Calculus and Macroeconomics. In Calauclus, we have created a graphing calculator, as well an numerous interactive visualizations that allow students to interact with mathematical properties of various functions. In Macroeconomics, we have created numerous activities that allow students to visualize and shift econommic curves under certain econcomic conditions.</p>
+          
+          <hr id="sec1">
+          </br>
+          <h3>Graphing Calculator</h3>
+          <p>Graphing calculators are permitted for use during "calculator active" problems on AP exams. Our app provides open access to those functionalities required for the AP exam. Learners can: 1) can input up to 5 mathematical functions, 2) plot those functions and their derivatives, 3) find zeroes of a given function, and 4) calculatore numerical derivatives and integrals. More instructions can be found in the live content on edx: <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Cal_APccx+2T2015/69d39ac6161c420eab6f67196a836cd1/">Link</a>.</p>
+          <!-- <a href="https://dnexttools.s3.amazonaws.com/GraphingCalculator/graphing_calculator.html">
+              <img class="img-responsive" src="projects/Graphing_and_DataEntry/graphing_calculator.png" alt="">
+          </a> -->
+          <iframe src="https://dnexttools.s3.amazonaws.com/GraphingCalculator/graphing_calculator.html" width="100%" height="650" frameborder="0"></iframe>
+
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Cal_APccx+2T2015/courseware/Limits/LC2_Some_Special_Limits_and_the_Sandwich_Theorem/5" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnexttools.s3.amazonaws.com/GraphingCalculator/graphing_calculator.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/master/graphing_calculator" target="_blank"> Git </a>
+          </button>
+
+          <hr id="sec2">
+          </br>
+          <h3>Curve Shifting (drag)</h3>
+          <p>Graphing economic curves is a large part of the Macroeconomics curriculum. In addition, students are often asked to plot economic curves before and after a given economic effect. In the activity below, we provide the starting graph for the learners, and then ask them to shift one of the curves based on the economic effect. In the edX platform, students are given graded feedback on the correctness of their shift. These interactives can also be easily embedded in other platforms simply using an iframe. </p>
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/7_Moving_to_Long_Run_Equil/LC2/MLE_LC2_HOA_1a_static.html" width="100%" height="500" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Moving_to_Long_Run_Equilibrium/LC2_Classical_and_Keynesian_Views_of_Recession/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/7_Moving_to_Long_Run_Equil/LC2/MLE_LC2_HOA_1a_static.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/master/Macroeconomics/7_Moving_to_Long_Run_Equil/LC2" target="_blank"> Git </a>
+          </button>
+
+
+          <hr id="sec3">
+          </br>
+          <h3>Curve Shifting (drag)</h3>
+          <p>Davidson Next calculus AP instructors and our content editor provided a number of opportunities to create visualizations of calculus content. Below is a visualization of the convergence of the anharmoinic series. Use the slider to adjust the number of terms in the series.</p>
+          <p><i>In the edX live version, you mush click the "show answer" button in the 4th question to see the visualization.</i></p>
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/calculus/alternating_harmonic_series.html" width="100%" height="850" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Cal_APccx+2T2015/courseware/Series_Convergence/LC3_Error_Bounds/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/calculus/alternating_harmonic_series.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/master/calculus" target="_blank"> Git </a>
+          </button>
+          
+
+          <hr id="sec4">
+          </br>
+          <h3>Curve Shifting (sliders)</h3>
+          <p>Similar to the activity above, we have also created a number of activities with sliders. This was largely to decrease the degrees of freedom available to students. For more complicated econoimics scenarios, it also greatly reduces the chance for user errors, while allowing them to see how multiple variables move in conjunction.</p>
+          <!-- <a href="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/13_Phillips_Curve/LC3/Phillips_LC3_HOA1_2Board_Slider.html">
+              <img class="img-responsive" src="projects/Graphing_and_DataEntry/graphing_calculator.png" alt="">
+          </a> -->
+          
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/13_Phillips_Curve/LC3/Phillips_LC3_HOA1_2Board_Slider.html" width="100%" height="380" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Phillips_Curve/LC3_Long_Run_Phillips_Curve/4" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/13_Phillips_Curve/LC3/Phillips_LC3_HOA1_2Board_Slider.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/master/Macroeconomics/13_Phillips_Curve/LC3" target="_blank"> Git </a>
+          </button>
+
+
+          <hr id="sec4">
+          </br>
+          <!-- Active Table  -->
+          <h3>Technology</h3>
+          <p>These activities were largely built around JSXgraph (described below). In addition, modern HTML/Javascript/CSS and JQuery provide some of the refined features of the activities.</p>
+
+          <h3>
+              <a href="http://jsxgraph.uni-bayreuth.de/wp/">JSXgraph</a>
+
+          </h3>
+          From their website: 
+          <i>
+              JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser. It is implemented completely in JavaScript, does not rely on any other library, and uses SVG, VML, or canvas. JSXGraph is easy to embed and has a small footprint: less than 100 KByte if embedded in a web page. No plug-ins are required! Special care has been taken to optimize the performance.
+          </i>
+          
+
+        </div>
+
+    
+        
+
+{% endblock %}

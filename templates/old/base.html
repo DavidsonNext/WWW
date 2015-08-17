@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Davidson Next: Macroeconomics Interactive Content</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Davidson Next: Macroeconomics Enhancements</h1>
+                    <p>Interactive Educational Content</p>
+                </div>
+            </div>
+        </div>
+        <center>
+            <p>Total Number of JSXgraph Interactives: {{ JSXlist|length }} links</p>
+            <p>Total Number of Active Table Problems: {{ actList|length }} links</p>
+            <p>Roughly 10% of these files are either out of date, or lack context outside the edX platform.</p>
+        </center>
+    
+        <!-- {% include "byTopic.html" %}
+        <div id="content">{% block title %}{% endblock %}</div>
+        <div id="footer">
+            {% block footer %}
+            &copy; Copyright 2008 by <a href="http://domain.invalid/">you</a>.
+            {% endblock %}
+        </div> -->
+
+
+        <h2>JSXgraph Interactives</h2>
+        <ol align="left">
+            {% set counter = 0 -%}
+            {% for url in JSXlist -%}
+            <li><a href="{{ url }}">{{ url }}</a></li>
+            {% set counter = counter + 1 -%}
+            {% endfor -%}
+        </ol>
+
+        <h2>Active Table Problems (no render available)</h2>
+        <ol align="left">
+            {% set counter = 0 -%}
+            {% for url in actList -%}
+            <li><a href="{{ url }}">{{ url }}</a></li>
+            {% set counter = counter + 1 -%}
+            {% endfor -%}
+        </ol>
+    <!--
+    <div class="container">
+      <p>Total Number of Macro Interactives: {{numInteractives}}</p>
+      <ul>
+        {% for f in iList %}
+        <li>{{f}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    -->
+        <script src="scripts/jquery-2.1.3.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+    </body>
+</html>

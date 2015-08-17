@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block jsxgraph %}
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Davidson Next: Macroeconomics Enhancements</h1>
+            <p>Interactive Educational Content</p>
+        </div>
+    </div>
+</div>
+<center>
+    <p>Total Number of JSXgraph Interactives: {{ JSXlist|length }} links</p>
+    <p>Total Number of Active Table Problems: {{ actList|length }} links</p>
+    <!-- <p>Roughly 10% of these files are either out of date, or lack context outside the edX platform.</p> -->
+</center>
+
+<h2>JSXgraph Interactives</h2>
+<ol align="left">
+    {% set counter = 0 -%}
+    {% for url in JSXlist -%}
+    <li><a href="{{ url }}">{{ url }}</a></li>
+    {% set counter = counter + 1 -%}
+    {% endfor -%}
+</ol>
+
+<h2>Active Table Interactives (no rendering available)</h2>
+<ol align="left">
+    {% set counter = 0 -%}
+    {% for url in actList -%}
+    <li><a href="{{ url }}">{{ url }}</a></li>
+    {% set counter = counter + 1 -%}
+    {% endfor -%}
+</ol>
+{% endblock%}

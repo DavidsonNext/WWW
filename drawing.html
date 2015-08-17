@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Davidson Next Interactives</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="styles/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles/3-col-portfolio.css" rel="stylesheet">
+
+    <style type="text/css">
+        #GraphCalc .modal-dialog  {width:800px;}
+        #FDB .modal-dialog  {width:700px;}
+    </style> 
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Davidson Next Interactives on edX</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="drawing.html">Drawing</a></li>
+                    <li><a href="graphing.html">Graphing</a></li>
+                    <li><a href="data_entry.html">Data Entry</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="jsxgraph_example.html" target="_blank">iPython/JSinput edX Workflow</a></li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <!-- <div class="container"> -->
+
+        
+
+    <div class="container">
+        <div class="jumbotron" >
+            <div class="container">
+                <h2>Enhanced Learning Components</h2>
+                <p>Creating interactive student activities that store student work directly in edX.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+
+        <!-- Sidebar (affix) -->
+        <!-- <div class="col-md-2" id="leftCol">
+          <ul class="nav nav-list affix" id="sidebar">
+            <li><a href="#sec1">Vectors</a></li>
+            <li><a href="#sec2">Segments</a></li>
+            <li><a href="#sec3">Measurements</a></li>
+            <li><a href="#sec4">Atomic Transitions</a></li>
+            <li><a href="#sec5">Technology</a></li>
+          </ul>
+        </div> -->
+
+
+        <!-- /.row -->
+
+        <div class="col-md-12">
+          <h1 class="page-header">Drawing<br/><small>(Vectors, Segments, Measurments, Atomic Transitions)</small></h1>
+          <p>Davidson Next has developed with support of OpenCraft a drawing tool that allows learners to use their mouse (or finger on tablets) to draw directly to screen. This drawing tool has been used to create activities ranging from drawing a best fit line through a set of data, to producing graded free-body diagrams in physics. This tool is currently used in the Davidson Next AP Physics content for drawing vectors and making measurements of physical pheonomena. The tool has been adapted for Macroeconomics to allow students to draw simple economic curves, e.g., Supply and Demand under various economic situations.</p>
+          
+          <hr id="sec1">
+          </br>
+          <h3>Vectors</h3>
+          <p>The tool was originall designed with vectors in mind. Many problems in introductory physics start with students drawing force diagrams, but that work is often reserved for paper calculations and feedback is not given until the diagrams are graded by an instructor. The vector drawing tool below is embedded live in edX and provides students the ability to save their work online and receive immediate feedback.</p>
+          <div><iframe src="https://dnextinteractives.s3.amazonaws.com/Physics/Force_Diagrams/LC3/12_FDiagrams_LC3_Q2.html" width="100%" height="500" frameborder="0"></iframe></div>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Phy_APccx+2T2015/courseware/Force_Diagrams/LC3_Force_Components_for_Objects_on_a_Ramp/6" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/Physics/Force_Diagrams/LC3/12_FDiagrams_LC3_Q2.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/Daniel/Physics/Force_Diagrams/LC3" target="_blank"> Git </a>
+          </button>
+
+          <hr id="sec2">
+          </br>
+          <h3>Segments</h3>
+          <p>After the initial design of the vector drawing tool, it was clear we may be able to adapt the tool to draw segments for Macroeconomics and other applications in Physics. In Macro, we now have several problems that involve students drawing supply and demand curves under various economic conditions. Again, students get immediate feedback and their work is saved to the edX platform. We hope to expand these features such that learners have freedom to draw more of the graphical components (axes, labels, non-linear curves, etc.).</p>
+          
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/12_Loanable_Funds/LC1/LF_draw_SD_LC1_HOA1.html" width="100%" height="500" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Mac_APccx+2T2015/courseware/Loanable_Funds/LC1_Financial_Intermediation/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/Macroeconomics/12_Loanable_Funds/LC1/LF_draw_SD_LC1_HOA1.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/Daniel/Macroeconomics/12_Loanable_Funds/LC1" target="_blank"> Git </a>
+          </button>
+
+          
+          <hr id="sec3">
+          </br>
+          <h3>Measurements</h3>
+          <p>One of the most exciting aspects of the drawing tool is the idea of making physical measurements. The image below is of a diffraction pattern, which comes from an experiment performed by an AP instructor in the "Diffraction and Interference" content for Davidson Next. The image and tools have been scaled such that readings from the drawn segments (or rulers) allow learners to directly measure distances on the pattern; mimicking what would be done in a real laboratory setting. Learners then take their measurements and performance data analysis (see data entry and plotting tool).</p>
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/Physics/Diffraction/LC4/DI_LC4_measure_2.html" width="100%" height="300" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Phy_APccx+2T2015/courseware/Diffraction_and_Interference/LC4_Single_Slit_Interference/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://dnextinteractives.s3.amazonaws.com/Physics/Diffraction/LC4/DI_LC4_measure_2.html" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/Daniel/Physics/Diffraction/LC4" target="_blank"> Git </a>
+          </button>
+
+
+          <hr id="sec4">
+          </br>
+          <h3>Atomic Transitions</h3>
+          <p>Vector drawing has a number of possible applications. We found an interesting use of the tool in our Atomic Transitions unit. Learners draw appropriate transitions based on a problem prompt. Grading is based upon the vertical location of the tip and tail of each vector.</p>
+          <iframe src="https://dnextinteractives.s3.amazonaws.com/Physics/AtomicTransitions/LC2/AtomicLC2_HOA1.html" width="100%" height="500" frameborder="0"></iframe>
+
+          <!-- edX Live Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Phy_APccx+2T2015/courseware/Diffraction_and_Interference/LC4_Single_Slit_Interference/3" role="button" class="btn btn-primary btn-md" target="_blank"> edX Live </a>
+
+          <!-- Demo Button -->
+          <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Phy_APccx+2T2015/courseware/Atomic_Transitions/LC2_Calculate_Energy_Required_for_Transitions/3" class="btn btn-success btn-md" target="_blank">
+            Demo
+          </a>
+
+          <!-- Github Button -->
+          <button type="button" class="btn btn-default btn-md">
+              <span class="fa fa-github" aria-hidden="true"></span>
+              <a href="https://github.com/DavidsonNext/Interactives/tree/Daniel/Physics/Diffraction/LC4" target="_blank"> Git </a>
+          </button>
+
+
+          
+
+
+          <hr id="sec5">
+          </br>
+          <!-- Active Table  -->
+          <h3>Technology</h3>
+          <p>The drawing tool was largely built around JSXgraph (described below). In addition, modern HTML/Javascript/CSS provide some of the refined features of the tool.</p>
+
+          <h3>
+              <a href="http://jsxgraph.uni-bayreuth.de/wp/">JSXgraph</a>
+
+          </h3>
+          From their website: 
+          <i>
+              JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser. It is implemented completely in JavaScript, does not rely on any other library, and uses SVG, VML, or canvas. JSXGraph is easy to embed and has a small footprint: less than 100 KByte if embedded in a web page. No plug-ins are required! Special care has been taken to optimize the performance.
+          </i>
+          
+
+        </div>
+
+    
+        
+
+
+
+    <!-- </div> -->
+    <!-- /.container -->    
+    
+    <!-- Footer -->
+    <div class="container">
+        <footer>
+            <div class="row">
+                <!-- <div class="col-lg-12">
+                    <p>Copyright &copy; Davidson Next 2014</p>
+                </div> -->
+            
+                <div class="col-lg-12">
+                    <h1 class="page-header">About Davidson Next
+                        <!-- <small>custom</small> -->
+                    </h1>
+                    <p>Davidson Next is a collection of free online resources for Advanced Placement (AP) courses. Davidson Next is a collaborative project between Davidson College, the College Board, and edX. Davidson Next was made possible by the generous support of the Laura and John Arnold Foundation.</p>                    
+                    <h4>
+                        <a href="https://www.edx.org/school/davidsonx" target="_blank">Davidson Next on edX</a>
+                    </h4>
+                    <h4>
+                        <a href="http://www.davidson.edu/davidsonnext" target="_blank">Official Home Page</a>
+                    </h4>
+
+                    <hr/>
+
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Davidson Next Interactives</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.davidson.edu/davidsonnext" property="cc:attributionName" rel="cc:attributionURL">Davidson Next</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+                    <p><i>Advanced Placement&reg; and AP&reg; are trademarks registered and/or owned by the College Board, which was not involved in the production of, and does not endorse, these offerings.</i></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+    </div>
+    
+
+    <!-- jQuery -->
+    <script src="scripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+{% extends "base_page.html" %}
+{% block page_content %}
+
+<div class="container">
+    <div class="jumbotron" >
+        <div class="container">
+            <h2>Davidson Next AP Challenging Concepts</h2>
+            <p>Educational content aimed at improving teaching and learning.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Davidson Next Interactive Content</h3>
+            <p>Davidson Next is committed to making high quality interactive content associated with its AP&reg; offerings. This site contains an overview of tools and examples we developed over the past year (Aug. 2014 &emd; Aug. 2015). The principles that guided are development are:</p>
+            <ol>
+                <li>Create engaging activities that improve learning and mastery of challenging concepts.</li>
+                <li>Allow learners to complete and store more of their work inside the edX platform.</li>
+                <li>Allow new interactive components to be graded by the edX platform.</li>
+                <li>To push the boundaries of the edX platform in terms of a learners ability to interact with graphics and simulations.</li>
+            </ol>
+
+            <p>Our interactive content broadly cover the following categories:</p>
+            <ol>
+                <li>Drawing</li>
+                <li>Graphing</li>
+                <li>Data Entry</li>
+            </ol>
+            <p>The tabs at the top of the page will take you specific examples that are currently live in our three AP&reg; offerings - Calculus, Macroeconomics, and Physics. In addition, you will find github links to our github repositories.</p>
+
+            <h3>Selected Example: Graphing Application</h3>
+            <p>Graphing calculators are permitted for use during "calculator active" problems on AP exams. Our app provides open access to those functionalities required for the AP exam. Learners can: 1) can input up to 5 mathematical functions, 2) plot those functions and their derivatives, 3) find zeroes of a given function, and 4) calculatore numerical derivatives and integrals. More instructions can be found in the live content on edx: <a href="https://courses.edx.org/courses/course-v1:DavidsonNext+Cal_APccx+2T2015/69d39ac6161c420eab6f67196a836cd1/">Link</a>.</p>
+            <iframe src="https://dnexttools.s3.amazonaws.com/GraphingCalculator/graphing_calculator.html" width="100%" height="650" frameborder="0"></iframe>
+
+        </div>
+    </div>
+
+    <hr/>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <h3>What is Davidson Next?</h3>
+            <p>Watch this short about video to learn more about Davidson Next.</p>
+            <!-- <p>Interactive Educational Content</p> -->
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item embed-responsive-center" src="http://www.youtube.com/embed/HOGNMUoWIgw"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
